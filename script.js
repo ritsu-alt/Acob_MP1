@@ -54,8 +54,26 @@ $(document).ready(function () {
   });
 
   $(".thumb").on("click", function () {
-    $("#heading").text($(this).data("title"));
+    var title = $(this).data("title");
+    $("#heading").text(title);
     $("#summary").text($(this).data("desc"));
+
+    if(title == "Session 1: Waking Up on the Board"){
+    $("#video").attr("src", "https://www.youtube.com/embed/dQw4w9WgXcQ?si=irVTh9RqUoc6z3Zo");
+    }
+
+    else if(title == "Why We Switched from D20 to D10"){
+    $("#video").attr("src", "https://www.youtube.com/embed/BbHUnbpO1Ak?si=94FJ15_84iHOf386");
+    }
+
+    else if(title == "One-Shot: The Ferryman's Debt"){
+    $("#video").attr("src", "https://www.youtube.com/embed/ECCUkuPbrLI?si=rIf-TurE65Zmiuby");
+    }
+    
+    else if(title == "Main Campaign Finale (Spoilers!)"){
+    $("#video").attr("src", "https://www.youtube.com/embed/y566MWHAV3Y?si=k2b0_zNp-g819BLY");
+    }
+
     $("#viewer").addClass("open");
   });
 

@@ -538,6 +538,11 @@ a {
   padding: 16px;
 }
 
+iframe {
+  height: 230px;
+  width: 500px;
+}
+
 .footer {
   border-top: 1px solid #e6dec8;
   background-color: #faf8f3;
