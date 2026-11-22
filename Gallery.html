@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery | Heaven's Board TTRPG</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-4.1.0.min.js" integrity="sha256-hjRvPkFLO1JGZFMXGrzdpG6TlsHDyjp4PQeqLWRcMzk=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap">
+      <a href="Landing.html"><img src="logo.jpg" class="logo"></img></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="Reviews.html">Reviews</a></li>
+          <li><a href="Gallery.html" class="active">Gallery</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="wrap">
+      <h1>Check out actual play!</h1>
+      <p>Watch real sessions to see how the D10 rules and no-healing combat play out at the table.</p>
+    </div>
+  </section>
+
+  <hr class="line">
+
+  <main class="section">
+    <div class="wrap gallery">
+      <article class="video">
+        <div class="thumb" data-title="Session 1: Waking Up on the Board" data-desc="Four players wake up at the Threshold Gate with blank memories and their very first encounter.">
+          <div class="play">&#9658;</div>
+        </div>
+        <div class="caption">
+          <h3>Session 1: Waking Up on the Board</h3>
+          <p>Four players wake up at the Threshold Gate and immediately make some questionable choices.</p>
+        </div>
+      </article>
+
+      <article class="video">
+        <div class="thumb" data-title="Why We Switched from D20 to D10" data-desc="A quick breakdown of how our D10 system works and why we ditched healing spells.">
+          <div class="play">&#9658;</div>
+        </div>
+        <div class="caption">
+          <h3>Why We Switched from D20 to D10</h3>
+          <p>A quick rules walkthrough showing contested rolls and permanent damage in action.</p>
+        </div>
+      </article>
+
+      <article class="video">
+        <div class="thumb" data-title="One-Shot: The Ferryman's Debt" data-desc="A standalone game straight out of Nate's Big Book of Adventures.">
+          <div class="play">&#9658;</div>
+        </div>
+        <div class="caption">
+          <h3>One-Shot: The Ferryman's Debt</h3>
+          <p>Straight out of Nate's Big Book of Adventures. Watch the party try to bargain across the Ash River.</p>
+        </div>
+      </article>
+
+      <article class="video">
+        <div class="thumb" data-title="Main Campaign Finale (Spoilers!)" data-desc="The final episode of our studio's full playthrough of the Heaven's Board Main Campaign.">
+          <div class="play">&#9658;</div>
+        </div>
+        <div class="caption">
+          <h3>Main Campaign Finale (Spoilers!)</h3>
+          <p>The last session of our studio run through the Heaven's Board Main Campaign.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <div id="viewer" class="modal">
+    <div class="popup">
+      <button id="exit" class="close">&times;</button>
+      <h2 id="heading">Video Title</h2>
+      <div class="player">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=irVTh9RqUoc6z3Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p id="summary" class="muted"></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; 2026 Heaven's Board TTRPG.<br>Never Gonna Give You Up by Rick Astley</p>
+      
+      <ul class="links">
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

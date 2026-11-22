@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Heaven's Board TTRPG</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-4.1.0.min.js" integrity="sha256-hjRvPkFLO1JGZFMXGrzdpG6TlsHDyjp4PQeqLWRcMzk=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap">
+      <a href="Landing.html"><img src="logo.jpg" class="logo"></img></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="Reviews.html">Reviews</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="wrap">
+      <h1>Get in Touch with us!</h1>
+      <p>Questions about an order, local shop stock, or a weird rule? Drop us a note below.</p>
+    </div>
+  </section>
+
+  <hr class="line">
+
+  <main class="section">
+    <div class="wrap contact">
+      <div class="card">
+        <h2>Contact Information</h2>
+        <ul class="info">
+          <li><strong>Email:</strong> hello@heavensboardttrpg.com</li>
+          <li><strong>Phone:</strong> 8700-Jollibee-Delivery</li>
+          <li><strong>Address:</strong> 67 Avenue, Philippines</li>
+          <li><strong>Hours:</strong> Mon-Fri, 9 AM - 6 PM</li>
+          <li><a href="https://discord.gg/yfeQcvkfEF" class="discord"> <strong>Discord:</strong>discord.gg/heavensboard</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Send a Message</h2>
+        <form id="inquiry">
+          <div class="field">
+            <label for="sender">Name</label>
+            <input type="text" id="sender" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" required placeholder="you@email.com">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required placeholder="What's up?"></textarea>
+          </div>
+          <button type="submit" class="button">Send Message</button>
+          <p id="reply" class="status"></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; 2026 Heaven's Board TTRPG.</p>
+      <ul class="links">
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

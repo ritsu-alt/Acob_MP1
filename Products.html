@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products | Heaven's Board TTRPG</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-4.1.0.min.js" integrity="sha256-hjRvPkFLO1JGZFMXGrzdpG6TlsHDyjp4PQeqLWRcMzk=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap">
+      <a href="Landing.html"><img src="logo.jpg" class="logo"></img></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="Products.html" class="active">Products</a></li>
+          <li><a href="Reviews.html">Reviews</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="wrap">
+      <h1>Products</h1>
+      <p>Grab the books and dice you need to get a game going.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="product">
+      <div class="details">
+        <h2>Starter Set Bundle</h2>
+        <p class="price">$67.67</p>
+        <p>Everything you need to run your first game night without spending hours reading first.</p>
+        <ul class="inclusions">
+          <li>Quickstart Rulebook and GM Screen</li>
+          <li>6 custom D10 dice</li>
+          <li>Fold-out Board Map and 24 player tokens</li>
+          <li>5 ready-to-play character sheets</li>
+        </ul>
+        <button class="button buy" data-name="Starter Set Bundle" data-price="59.99">Buy Now</button>
+      </div>
+      <div class="art">Starter Set<br>Bundle</div>
+    </section>
+
+    <hr class="line">
+
+    <section class="product">
+      <div class="details">
+        <h2>Core Rulebook</h2>
+        <p class="price">$42.00</p>
+        <p>The full 280-page hardcover book. Covers character creation, the complete D10 rules, afterlife lore, and GM tips for running games with no healing.</p>
+        <button class="button buy" data-name="Core Rulebook" data-price="39.99">Buy Now</button>
+      </div>
+      <div class="art">Core Rulebook</div>
+    </section>
+
+    <hr class="line">
+
+    <section class="product">
+      <div class="details">
+        <h2>Nate's Big Book of Adventures</h2>
+        <p class="price">$30.00</p>
+        <p>Twelve short adventures written by Nate. Drop them into your regular campaign or run them as one-shots whenever your usual group is down a player.</p>
+        <button class="button buy" data-name="Nate's Big Book of Adventures" data-price="29.99">Buy Now</button>
+      </div>
+      <div class="art">Nate's Big Book<br>of Adventures</div>
+    </section>
+
+    <hr class="line">
+
+    <section class="product">
+      <div class="details">
+        <h2>Heaven's Board Main Campaign</h2>
+        <p class="price">$69.96</p>
+        <p>Our full 10-part story campaign. Takes your party from their first day on the Board all the way to the Arbiter Courts, where their choices decide how it all ends.</p>
+        <button class="button buy" data-name="Heaven's Board Main Campaign" data-price="34.99">Buy Now</button>
+      </div>
+      <div class="art">Heaven's Board<br>Main Campaign</div>
+    </section>
+  </main>
+
+  <div id="checkout" class="modal">
+    <div class="popup">
+      <button id="cancel" class="close">&times;</button>
+      <h2 id="item">Product</h2>
+      <p class="muted">Price: <strong id="cost">$0.00</strong></p>
+      <div class="quantity">
+        <label for="amount">Qty:</label>
+        <input type="number" id="amount" min="1" value="1">
+        <span>Total: <strong id="total">$0.00</strong></span>
+      </div>
+      <button id="confirm" class="button">Place Order</button>
+      <p id="receipt" class="status"></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; 2026 Heaven's Board TTRPG.</p>
+      <ul class="links">
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
